@@ -2,20 +2,16 @@
 <html lang="nl">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Volledig Scherm Prezi</title>
+  <title>Pooster voor Levensbeschouwing</title>
   <style>
     html, body {
       margin: 0;
       padding: 0;
       height: 100%;
       width: 100%;
-      overflow: hidden;
-      background: black;
     }
-
-    iframe {
-      position: absolute;
+    #iframe_container {
+      position: fixed;
       top: 0;
       left: 0;
       width: 100%;
@@ -25,11 +21,15 @@
   </style>
 </head>
 <body>
-  <iframe 
-    src="https://prezi.com/p/embed/GvOv5PpQlwaaCojIBkMW/" 
-    id="iframe_container" 
-    allowfullscreen 
-    allow="autoplay; fullscreen">
-  </iframe>
+
+<iframe src="https://prezi.com/p/embed/4mRzHKWagLRHpYkLC5MC/" 
+        id="iframe_container" 
+        frameborder="0" 
+        webkitallowfullscreen 
+        mozallowfullscreen 
+        allowfullscreen 
+        allow="autoplay; fullscreen">
+</iframe>
+
 </body>
 </html>
